@@ -2,7 +2,7 @@
 
 A modern, fast, and secure web application to seamlessly dispatch custom messages to multiple WhatsApp contacts simultaneously. Built with Node.js, Express, Socket.io, and `whatsapp-web.js`.
 
-![UI Preview](public/whatsapp.png) <!-- Replace this with an actual screenshot of the UI -->
+![UI Preview](public/ui.png) 
 
 ## ✨ Features
 
@@ -28,7 +28,7 @@ Ensure you have Node.js installed on your machine.
 Clone the repository and install the required dependencies:
 
 ```bash
-git clone https://github.com/your-username/whatsapp-mass-message-tool.git
+git clone https://github.com/kashif-015/whatsapp-mass-message-tool.git
 cd whatsapp-mass-message-tool
 npm install
 ```
@@ -46,8 +46,19 @@ node server.js
 3. Once the app says **"Session Active"**, enter your comma-separated phone numbers and write your message.
 4. Click **"Send Message"** and watch the execution terminal log the deliveries in real time!
 
-## ⚠️ Important Disclaimer
-This tool is built for personal, non-commercial use. Sending unsolicited bulk messages or spam can lead to your WhatsApp number being permanently banned by WhatsApp's automated systems. The author takes no responsibility for blocked accounts. Please use responsibly.
+## ⚠️ Disclaimer
 
+> 🚨 **Important Notice**  
+> This project is intended for **educational and personal use only**.  
+> It is **not affiliated with, authorized, or endorsed by WhatsApp**.
+
+Using this tool to send **bulk, automated, or unsolicited messages** may violate WhatsApp’s Terms of Service and can lead to **temporary or permanent bans** of your account.
+
+### By using this project, you agree that:
+- You are fully responsible for your usage  
+- You will **not use it for spam or illegal activities**  
+- The developer is **not liable** for any bans, misuse, or damages  
+
+👉 Use responsibly and at your own risk.
 ## 📄 License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
